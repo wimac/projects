@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <script type="text/javascript" src="mootools.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+    
+<!-- Page Title -->
+	<title>.wimac's startpage</title>
+
+</head>
+<body>
+	<div id="one">
+		<div id="menu">
+<!-- Number of First Block -->
+			<div class="number">01</div>
+<!-- Title of First Block -->
+			<div class="title">.network</div>
+            <!-- Links in First Block -->
+<a id="link" href="https://www.google.com/reader/view/#overview-page">.greader</a><br />
+<a id="link" href="https://www.facebook.com/home.php">.facebook</a><br />
+<a id="link" href="https://www.twitter.com">.twitter</a><br />
+<a id="link" href="https://mail.google.com/mail/?shva=1#">.gmail</a><br />
+<a id="link" href="https://email.bowebellhowell.com/owa/auth/logon.aspx?url=https://email.bellhowell.net/owa/&reason=0">.bh email</a><br />
+<a id="link" href="https://docs.google.com/?tab=mo#all">.docs</a><br />
+<a id="link" href="https://www.google.com/calendar/b/0/render?tab=oc">.calendar</a><br />
+		</div>
+	</div>
+
+	<div id="two">
+		<div id="menut">
+<!-- Number of Second Block -->
+			<div class="number">02</div>
+<!-- Title of Second Block -->
+			<div class="title">.media</div>
+<!-- Links in Second Block -->
+<a id=".howard stern" href="http://howardstern.com/rundown.hs">.howard stern</a><br />
+<a id=".howard stern" href="http://twit.tv">.TWiT</a><br />
+<a id=".sidereel" href="http://www.sidereel.com/users">.sidereel</a><br />
+<a id=".showRSS" href="http://showrss.karmorra.info/?cs=shows">.showRSS</a><br />
+<a id=".showRSS" href="http://affiliate.zap2it.com/tvlistings/ZCGrid.do">.tvListings</a><br />
+		</div>
+	</div>
+
+	<div id="three">
+		<div id="menuth">
+<!-- Number of Third Block -->
+			<div class="number">03</div>
+<!-- Title of Third Block -->
+			<div class="title">.linux</div>
+<!-- Links in Third Block -->
+			<a id="link" href="http://crunchbanglinux.org/">.crunchbang</a><br />
+                        <a id="link"
+                        href="http://forum.xda-developers.com/usercp.php">.xda-developers</a><br
+                        />
+		</div>
+	</div>
+
+	<div id="four">
+		<div id="menuf">
+<!-- Number of Fourth Block -->
+			<div class="number">04</div>
+<!-- Title of Fourth Block -->
+			<div class="title">.misc</div>
+<!-- Links in Fourth Block -->
+<a id="link" href="http://piratebay.se">.piratebay</a><br />
+<a id="link" href="http://detroit.craigslist.org">.craigslist</a><br />
+<a id="link" href="http://www.reddit.com/">.reddit</a><br />
+<a id="link" href="http://4chan.org">.4chan</a><br />
+<a id="link" href="http://www.endomondo.com/home#_=_">.endomondo</a><br />
+<a id="link" href="https://adpeet.adp.com/41bbhe/applications/wtk/html/ess/logon.jsp">.timecard</a><br />
+<a id="link" href="https://bowebellhowell.softscape.com/scripts/lightyearisapi.dll?outputresource&resource=login/login.htm&clientcd=10003">.softscape</a><br />
+
+		</div>
+	</div>
+
+	<div id="google">
+		<form method="get" action="http://torrentz.eu/search?">
+			<input type="text"   name="q" size="31" maxlength="255" value="" />
+			<input type="submit" value="Search" />
+		</form>
+	</div>
+
+</body>
+</html>
+

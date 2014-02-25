@@ -1,0 +1,29 @@
+[global_config]
+  title_transmit_bg_color = "#000000"
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  hide_window = <Shift><Control>a
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#111313:#9d6a70:#719e6b:#9a956a:#6c8b9e:#9e6ea4:#6b9e98:#b8baba:#212629:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    login_shell = True
+    background_darkness = 0.769574944072
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#d8d8d8"
+    foreground_color = "#737c80"
+    scroll_on_output = False
+    show_titlebar = False
+    color_scheme = custom
+    font = Terminus 9
+    background_color = "#212629"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

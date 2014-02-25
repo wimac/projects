@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/crunchbang/.vim'
+let g:netrw_dirhist_2='/home/crunchbang/.vim/plugin'
+let g:netrw_dirhist_3='/home/crunchbang/.vim'
+let g:netrw_dirhist_4='/home/crunchbang'
+let g:netrw_dirhist_5='/media/wimac-drive02/Android_Stuff/ICS_MOD_4'
+let g:netrw_dirhist_6='/home/wimac/new directory'

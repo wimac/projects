@@ -1,0 +1,22 @@
+[mediaplayer]
+record = -ao pcm:file=
+command = /usr/bin/mplayer
+options = -slave -really-quiet -nojoystick -nolirc -user-agent NSPlayer-nomouseinput -prefer-ipv4 -cache 32 -cache-min 4
+
+[debug]
+debug = False
+directory = ~/pyxisdebug
+
+[account]
+username = wimac2
+login_type = subscriber
+canada = False
+password = 4e3590b079101462e2a11b163869c62e
+
+[recordings]
+directory = /home/wimac/pyxis/
+
+[settings]
+notifications = Yes
+bitrate = High
+

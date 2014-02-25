@@ -1,0 +1,14 @@
+{
+  "file": 1, 
+  "format": 1
+}{
+  "check_after_days": 4, 
+  "list_type": "Emule", 
+  "url": "http://deluge-torrent.org/blocklist/nipfilter.dat.gz", 
+  "try_times": 3, 
+  "list_size": 3375061, 
+  "last_update": 1314226015.65221, 
+  "timeout": 180, 
+  "list_compression": "GZip", 
+  "load_on_start": false
+}

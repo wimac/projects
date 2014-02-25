@@ -1,0 +1,16 @@
+# Netscape HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+www.sirius.com	FALSE	/	FALSE		playerType	sirius
+www.sirius.com	FALSE	/	FALSE		sirius_campain_code	default
+www.sirius.com	FALSE	/	FALSE		sirius_consumer_type	sirius_online_subscriber
+www.sirius.com	FALSE	/	FALSE		sirius_login_attempts	3
+www.sirius.com	FALSE	/	FALSE		sirius_login_type	subscriber
+www.sirius.com	FALSE	/	FALSE		sirius_mp_bitrate_button_status_cookie	high
+www.sirius.com	FALSE	/	FALSE		sirius_mp_bitrate_entitlement_cookie	high
+www.sirius.com	FALSE	/	FALSE		sirius_mp_playertype	minimize
+www.sirius.com	FALSE	/	FALSE		sirius_password	4e3590b079101462e2a11b163869c62e
+www.sirius.com	FALSE	/	FALSE		sirius_user_logintimestamp	2011-01-07T17:32:12.003-05:00
+www.sirius.com	FALSE	/	FALSE		sirius_user_name	wimac2
+www.sirius.com	FALSE	/player	FALSE		JSESSIONID	AvzYnQUBvAZ9UMl0BiaurYGVPTllhjTjRICAmJHf

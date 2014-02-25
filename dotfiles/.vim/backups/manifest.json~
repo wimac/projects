@@ -1,0 +1,10 @@
+{
+  "name": "wimac startPage",
+  "version": "0.5.1",
+  "incognito": "split",
+  "icons": { "48": "icon.png",
+          "128": "icon.png" },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

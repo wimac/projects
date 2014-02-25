@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Send2Tablet
+Exec=~/bin/tab_push /sdcard/Download/ %f
+Categories=X-Geeqie;
+OnlyShowIn=X-Geeqie;
+X-Geeqie-Menu-Path=FileMenu/FileOpsSection
+X-Geeqie-Filter=false
+X-Geeqie-Verbose=true

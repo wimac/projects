@@ -1,1 +1,2 @@
-/home/wimac/Dropbox/skel/.fehrcwall
+# Set the default feh options to be recursive and verbose
+feh -qrNA "feh --bg-scale "%f"" --title "Wallpaper" -g 320x188

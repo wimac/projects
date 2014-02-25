@@ -1,0 +1,19 @@
+templates:
+  global:
+    download: ~/watch/
+  tv:
+    configure_series:
+        from:
+            thetvdb_favorites:
+                    account_id: 6C7E256B9D1F33B2
+        settings:
+            timeframe: 12 hours
+            target: hdtv <720p
+   
+ 
+
+tasks:
+  some_task:
+    rss: http://showrss.info/rss.php?user_id=33750&hd=0&proper=null&magnets=false 
+    template: tv
+
