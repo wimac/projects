@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_CA]=gnome-panel-launcher
+Exec=sudo /home/bbh/wm_rdcheck
+Name[en_CA]=Raid Check
+Name=Raid Check
+Icon=/usr/share/icons/hicolor/scalable/apps/gdu-raid-array.svg
