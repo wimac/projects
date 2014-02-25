@@ -1,0 +1,1 @@
+/home/wimac/Dropbox/skel/.vim
