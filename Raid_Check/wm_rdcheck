@@ -1,0 +1,63 @@
+#!/bin/bash
+#
+# Netsort Raid check
+# William MacLeod (William.MacLeod@bhemail.com
+#  Requires Adaptec StorMan software installed
+#
+
+#root check
+if [[ $EUID -ne 0 ]]; then
+    echo "Script must be run as root"
+    exit 1
+fi
+BASEDIR="/usr/StorMan"
+LD_LIBRARY_PATH=$BASEDIR
+
+rccheck()
+{
+echo ============================ RAID Check Summary ========================= 
+echo
+date
+echo
+echo =========================================================================
+echo
+LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getconfig 1 AL | grep 'Status of logical device' | grep Optimal
+if [ $? -ne 0 ]; then
+     echo ARRAY IS DEGRADED, IMMEDIATE ACTION REQUIRED  
+     echo
+     echo
+fi
+LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getconfig 1 AL | grep -e 'Status of logical device' -e 'Logical devices/Failed/Degraded' -e 'Failed stripes' -e ' Segment ' -e 'Logical device name'
+
+
+echo
+echo ============================ Current Full Statistics ========================
+LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getconfig 1 AL
+
+echo
+#echo ============================  Current Full Smart Statistics ========================
+#LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getsmartstats 1
+
+echo
+echo ============================  Current Operation and Status ========================
+echo
+LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getstatus 1
+
+echo
+echo ============================  Information on DEAD Devices ========================
+echo
+LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getlogs 1 DEAD
+
+echo
+echo ============================ Current Device Log ========================
+echo
+LD_LIBRARY_PATH=$BASEDIR $BASEDIR/arcconf getlogs 1 DEVICE
+
+
+}
+
+
+rccheck > ~/rclog.txt 
+zenity --text-info --width=650 --height=700 --filename=/home/bbh/rclog.txt
+
+exit 0
